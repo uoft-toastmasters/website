@@ -1,0 +1,239 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'SUSE';
+    color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f0f0;
+}
+
+header, footer {
+    background-color: #772432;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+header h2 {
+    margin-top: -35px;
+    font-size: 30px;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+    margin-top: 10px;
+    font-size: larger;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.calendar-download {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.calendar-download {
+    margin-top: 20px;
+}
+
+.calendar-download a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.download-button {
+    background-color: #772432;
+}
+
+.google-calendar-button {
+    background-color: #4285F4;
+}
+
+.download-button:hover {
+    background-color: #60393d;
+}
+
+.google-calendar-button:hover {
+    background-color: #357ae8;
+}
+
+.calendar-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.calendar-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 50px;
+    max-width: 360px;
+    width: 100%;
+    text-align: center;
+}
+
+.nav-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    background-color: #772432;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.nav-button:hover {
+    background-color: #60393d;
+    transform: scale(1.05);
+}
+
+.calendar {
+    margin-top: 20px;
+}
+
+h2 {
+    background: #772432;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+th {
+    background: #f8f9fa;
+    color: #333;
+}
+
+td {
+    background: #ffffff;
+    color: #333;
+}
+
+tr:nth-child(even) td {
+    background: #f9f9f9;
+}
+
+tr:nth-child(odd) td {
+    background: #ffffff;
+}
+
+
+td.event-day {
+    background-color: #772432 !important; 
+    color: #ffffff; 
+    cursor: pointer; 
+    padding: 10px; 
+    border: 1px solid #d45d72; 
+    text-align: center;
+    transition: background-color 0.3s, box-shadow 0.3s; 
+}
+
+td.event-day:hover {
+    background-color: #a43c4e; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.event-popup {
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    z-index: 1000;
+    max-width: 250px;
+    font-size: 14px;
+    color: #333;
+    font-weight: 600;
+}
+
+.event-popup p {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.zoom-link {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.zoom-link:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    font-family: monospace;
+    font-size: larger;
+}
+
+footer .icon {
+    background-color: #fff;
+    padding: 6px;
+    border-radius: 20%;
+    height: 20px;
+    width: 20px;
+}

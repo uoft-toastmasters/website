@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Calendar</title>
+    <link rel="stylesheet" href="events.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=SUSE:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>UNIVERSITY OF TORONTO</h1>
+        <h2>TOASTMASTERS</h2>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../membership/membership.html">Membership</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+
+        <div class="calendar-wrapper">
+            <div class="calendar-container">
+                <button id="prev-month" class="nav-button">Previous</button>
+                <button id="next-month" class="nav-button">Next</button>
+                <div id="calendar" class="calendar"></div>
+            </div>
+        </div>
+        <div class="calendar-download">
+            <a href="https://calendar.google.com/calendar/ical/g.skule.ca_cgchmieqjuhaod2pmk960ce0p8%40group.calendar.google.com/public/basic.ics" download="Toastmasters_Calendar.ics" class="download-button">Download iCal</a>
+            <a href="https://calendar.google.com/calendar/u/0/r?cid=Zy5za3VsZS5jYV9jZ2NobWllcWp1aGFvZDJwbWs5NjBjZTBwOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank" class="google-calendar-button">Add to Google Calendar</a>
+        </div>
+        <script src="events.js"></script>
+    </main>
+    <footer>
+        <a class="link-img" href="https://www.instagram.com/uofttoastmasters/"><img class="icon" src="../photos/instagram.png" alt=""></a>
+        <a class="link-img" href="https://discord.com/invite/dba9qXX6Un"><img class="icon" src="../photos/discord.png" alt=""></a>
+        <a class="link-img" href="https://www.youtube.com/channel/UCEdTqzDLN5bm3kBM-fNIUTw"><img class="icon" src="../photos/youtube.png" alt=""></a>
+        <p>&copy; 2024 University of Toronto Toastmasters</p>
+    </footer>
+</body>
+</html>
