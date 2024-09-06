@@ -126,14 +126,6 @@ const months = [
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
                 location: '', 
                 room: '' 
-            },
-            { 
-                date: 11, 
-                startTime: '6:00 PM', 
-                endTime: '8:00 PM', 
-                zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
             }
         ]
     },
