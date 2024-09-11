@@ -143,9 +143,11 @@ h2 {
 }
 
 table {
+    table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
     margin-top: 10px;
+    overflow-x: scroll;
 }
 
 th, td {
@@ -179,14 +181,14 @@ td.event-day {
     color: #ffffff; 
     cursor: pointer; 
     padding: 10px; 
-    border: 1px solid #d45d72; 
+    border: 1px solid #54101d; 
     text-align: center;
     transition: background-color 0.3s, box-shadow 0.3s; 
 }
 
 td.event-day:hover {
-    background-color: #a43c4e; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: #450914 !important; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important; 
 }
 
 
@@ -237,3 +239,5 @@ footer .icon {
     height: 20px;
     width: 20px;
 }
+
+
