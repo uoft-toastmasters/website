@@ -241,3 +241,8 @@ footer .icon {
 }
 
 
+@media (max-width: 360px) {
+    nav ul li a {
+        font-size: 14px;
+    }
+}
