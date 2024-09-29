@@ -39,24 +39,24 @@ const months = [
                 startTime: '6:00 PM', 
                 endTime: '8:00 PM', 
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
+                location: 'Hart House', 
+                room: '2005' 
             },
             { 
                 date: 7, 
                 startTime: '6:00 PM', 
                 endTime: '8:00 PM', 
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
+                location: 'Bahen', 
+                room: '2155' 
             },
             { 
                 date: 16, 
                 startTime: '6:00 PM', 
                 endTime: '8:00 PM', 
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
+                location: 'Bahen', 
+                room: '2185' 
             },
             { 
                 date: 21, 
@@ -102,8 +102,8 @@ const months = [
                 startTime: '6:00 PM', 
                 endTime: '8:00 PM', 
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
+                location: 'Hart House', 
+                room: '2005' 
             },
             { 
                 date: 27, 
@@ -124,8 +124,8 @@ const months = [
                 startTime: '6:00 PM', 
                 endTime: '8:00 PM', 
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
+                location: 'Hart House', 
+                room: '2005' 
             }
         ]
     },
