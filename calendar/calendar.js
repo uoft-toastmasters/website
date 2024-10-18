@@ -1,6 +1,5 @@
 const months = [
-    { 
-        name: 'SEPTEMBER', 
+    {  name: 'SEPTEMBER', 
         days: 30,
         events: [
             { 
@@ -30,7 +29,7 @@ const months = [
             
         ] 
     },
-    { 
+    {
         name: 'OCTOBER',
         days: 31,
         events: [
@@ -63,16 +62,16 @@ const months = [
                 startTime: '6:00 PM', 
                 endTime: '8:00 PM', 
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
+                location: 'Wilson Hall', 
+                room: '2007D' 
             },
             { 
                 date: 30, 
                 startTime: '6:00 PM', 
                 endTime: '8:00 PM', 
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
+                location: 'Bahen',  
+                room: '2175' 
             }
 
         ]
