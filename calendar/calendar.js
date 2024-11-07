@@ -93,8 +93,8 @@ const months = [
                 startTime: '6:00 PM', 
                 endTime: '8:00 PM', 
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
+                location: 'AB', 
+                room: '114' 
             },
             { 
                 date: 18, 
@@ -109,8 +109,8 @@ const months = [
                 startTime: '6:00 PM', 
                 endTime: '8:00 PM', 
                 zoomLink: 'https://utoronto.zoom.us/j/3336661729', 
-                location: '', 
-                room: '' 
+                location: 'AB', 
+                room: '114' 
             }
         ]
      },
